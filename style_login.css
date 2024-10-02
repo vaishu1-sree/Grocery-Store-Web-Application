@@ -1,0 +1,15 @@
+form {
+  background-color: blanchedalmond;
+}
+
+body {
+  background-color: grey;
+}
+
+button {
+  margin: 10px;
+  color: darkslateblue;
+  background-color: aliceblue;
+  width: 70px;
+  height: 30px;
+}

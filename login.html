@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+<!--    link to css page -->
+     <link href="style_login.css" rel="stylesheet" type="text/css" />
+    <h1 align="center">login</h1>
+      <p>
+        please fill in this form to log in
+      </p>
+  </head>
+  <body>
+    <form>
+      <br>
+      <br>
+      <br>
+      <br>
+<!--       label for displaying username and password-->
+      <label for="username">
+        username:
+      </label>
+<!--       creates a textbox to get user input -->
+      <input type="text" id="username" name="username">
+      <br>
+      <br>
+      <label for="password">
+        password:
+      </label>
+      <input type="password" id="password" name="password">
+      <br>
+      <br>
+<!--       button runs a javascript function to perform validation -->
+      <button type="button" onclick="validate()"> login </button>
+    </form>
+<!--     link to JavaScript file -->
+    <script src="style_login.js"></script>
+    
+  </body>
+</html>

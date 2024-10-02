@@ -1,0 +1,66 @@
+body {
+  background: lavender;
+  margin: 0; /* Reset default margin */
+}
+
+div {
+  width: 100%;
+  height: 20vh; /* Use viewport height for responsiveness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  font-size: 5vw; /* Responsive font size */
+  color: lightblue;
+  text-shadow: 0 0 10px green; /* Improved text shadow */
+  animation: colorme 8s infinite; /* Simplified animation */
+}
+
+@keyframes colorme {
+  0% { color: lightblue; text-shadow: 0 0 10px blue; }
+  40% { color: yellow; text-shadow: 0 0 10px orange; }
+  75% { color: pink; text-shadow: 0 0 10px red; }
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove default underline */
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: blue; /* Change color on hover */
+}
+
+[class*="col-"] {
+  padding: 15px;
+  box-sizing: border-box; /* Include padding in element's total width */
+}
+
+.col-6 {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center images horizontally */
+  border: 5px solid white; /* Add border around images */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
